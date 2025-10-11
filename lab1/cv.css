@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.line{
+    height: 1%;
+    width: 80%;
+    border: 2px solid black;
+    margin:20px;
+}
+
+.cv_box{
+    width: 50%;
+    height: 100%;
+    border: 2px solid red;
+    /* padding: 5px; */
+}
+
+.info{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+
+
