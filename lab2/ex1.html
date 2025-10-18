@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="iu_logo">
+        </div>
+
+        <div class="infoContainer">
+            <h1>Survey</h1>
+            <p>
+                If you have a moment, we'd appreciate it if you would fill out this survey.
+            </p>
+            <h1>Your information:</h1>
+            <!-- <div class="inputs"> -->
+            <div class="info">
+                <div><h2>First Name:</h2> </div>
+                <input type="text">
+            </div>
+
+            <div class="info">
+                <div><h2>Last Name:</h2> </div>
+                <input type="text">
+            </div>
+
+            <div class="info">
+                <div><h2>Email:</h2> </div>
+                <input type="text">
+            </div>
+
+            <div class="info">
+                <div><h2>Date of Birth:</h2> </div>
+                <input type="text">
+            </div>
+
+            <h1>How did you hear about us?</h1>
+            <div class="radioGroup">
+                <label><input type="radio" checked name="how">Search engine </label>
+                <label><input type="radio" checked name="how">Word of mouth </label>
+                <label><input type="radio" checked name="how">Social Media </label>
+                <label><input type="radio" checked name="how">Other </label>
+            </div>
+
+            <h1>
+                Would you like to receive announcements about new CDs and special offers?
+            </h1>
+
+            <div class="checkboxs">
+                <label><input type="checkbox"><strong>YES,</strong>I would love that</label>
+                <label><input type="checkbox"><strong>YES,</strong>please send me email announcements</label>
+            </div>
+            
+            <div class="contact">
+                <p>Please contact me by:</p>
+                <select name="Type">
+                    <option value="howTo">Email or postal mail</option>
+                    <option value="howTo">Email only</option>
+                    <option value="howTo">Postal mail only</option>
+                </select>
+            </div>
+
+            <button type="submit">submit</button>
+                
+            <!-- </div> -->
+        </div>
+    </div>
+
+</body>
+</html>
